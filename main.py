@@ -4,6 +4,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 loader = TextLoader("facts.txt")
-doc = loader.load()
+docs = loader.load()
 
-print(doc)
+print(docs)
